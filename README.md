@@ -1,4 +1,4 @@
-# BOILED-Egg Visualization To Predict Gastrointestinal Absorption and Brain Penetration of Small Molecules
+# BOILED-Egg Visualization
 
 See [A BOILED-Egg to predict gastrointestinal absorption and brain penetration of small molecules. ChemMedChem (2016) 11(11):1117-1121](http://onlinelibrary.wiley.com/doi/10.1002/cmdc.201600182/abstract) for full reference and supporting dataset.
 

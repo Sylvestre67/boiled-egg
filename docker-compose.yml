@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    container_name: web
+    container_name: boiled-egg-web
     build:
       context: ./web
     env_file:
@@ -11,12 +11,20 @@ services:
       - "3000:3000"
     depends_on:
       - api
+    networks:
+      - eggnet
 
   api:
-    container_name: api
+    container_name: boiled-egg-api
     build:
       context: ./api
     environment:
       - PYTHONUNBUFFERED=1
     ports:
       - "8000:8000"
+    networks:
+      - eggnet
+
+networks:
+  eggnet:
+    driver: bridge

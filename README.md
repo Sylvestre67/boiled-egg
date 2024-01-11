@@ -27,6 +27,7 @@ $ docker-compose up web -d
 ```
 
 Go to [localhost:3000](http://localhost:3000/) to see the web ui. 
+Go to [localhost:8000/docs](http://localhost:8000/docs) to see the api documentation.
 
 ## Things left to do
 - [ ] better error handling on the api
